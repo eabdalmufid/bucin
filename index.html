@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>I Love You Byy - Abdul Mufid</title>
+    <title>Halo kamu!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
@@ -23,7 +22,6 @@
 <div class="kolomteks"><p id="text"></p><p style="font-size:.80rem;" id="text2"></p></div>
 <div id="trm" class="contTom"><a style="margin:12px 12px 12px 0;" class='button' onClick="lanjutan();"></i>Lanjut</a></div>
 <!-- Nomor WA --><a id="whs" class='button whatsapp' onClick='bukaWa();'><i class='icon whatsapp'></i>Kirim pesan</a>
-<a id="whs" class="button whatsapp" onClick="bukaWa2();"><i class="icon whatsapp"></i>Kirim Pesan</a>
 </div>
 
     <script src="js/script.js"></script>
@@ -73,9 +71,9 @@
                             title: 'Seberapa sayang?',
                             icon: 'question',
                             input: 'range',
-                            inputLabel: 'Antara 10-100% ya',
+                            inputLabel: 'Antara 90-100% ya',
                             inputAttributes: {
-                                min: 10,
+                                min: 90,
                                 max: 100,
                             },
                             allowOutsideClick: false,
@@ -87,17 +85,14 @@
                             iloveu();siap();whs();
                             }
                         }
-                        function bukaWa(){window.location = "https://wa.me/62895411954396?text=Aku%20Sayang%20Banget%20Sama%20Kamu%20Byy";}
-                        function bukaWa1(){
-                        window.location = "https://wa.me/62895411954396?text=Aku%20Gak%20Sayang%20Kamu%20";
-                        }
+                        function bukaWa(){window.location = "https://api.whatsapp.com/send?phone=&text=Hai,%20" + "*" + nama + "*" + " udah bacain semuanya" + "%0A%0A" + "*" + nama + "*" + "%20" + window.sayang + " sama kamu " + "*" + window.persen + "*" + "%0A%0A" + "cobain juga yuk klik https://bucin2.jauhariq.my.id" +  "%0A%0A" + dateTime;}
 </script>
     <script>
   var i=0,text;
   text = "Bahkan gula pun akan kalah manisnya ketika kamu tersenyum kepadaku."
   var u=0,text2;//Text2 ada di if(nama)  
   var o=0,text3;
-  text3 = "Lihat ini sayang...                                 "
+  text3 = "Coba lihat disini sayang...                                 "
   var a=0,text4;//Text4 ada di if(nama)
 </script>
   </body>
